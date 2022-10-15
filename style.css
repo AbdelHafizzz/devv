@@ -1,0 +1,23 @@
+.circle {
+    background-color: purple;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 10%;
+    aspect-ratio: 1;
+}
+
+.categoryContainer {
+    background-color: lightblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.username {
+    flex: 1;
+}
+
+.toCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
