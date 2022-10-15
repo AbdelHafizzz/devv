@@ -61,6 +61,5 @@ const renderData = (data) => {
 
 const filterCat = (val) => {
   const filteredData = data.filter((item) => item.category === val);
-  //   data = filteredData;
   renderData(filteredData);
 };
